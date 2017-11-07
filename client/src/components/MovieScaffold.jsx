@@ -22,9 +22,14 @@ class MovieScaffold extends React.Components{
 
   render() {
     return (
+      <h1>UK's almost Latest Releases</h1>
       <div className="movie-box">
         <MovieList movies = {this.state.movies}/>
       </div>
+      <a href="http://www.imdb.com/movies-coming-soon/?ref_=nv_mv_cs_4">See more opening this week</a>
+      <hr>
+      <a href="https://www.myvue.com/cinema/edinburgh-omni-centre/whats-on"<button id="showtimes">Get Showtimes for Vue Edinburgh</button></a>
+      <hr>
     )
   }
 }
