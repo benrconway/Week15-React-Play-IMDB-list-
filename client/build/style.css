@@ -1,0 +1,16 @@
+.movie-box{
+  width: 400;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.movie{
+  padding:10;
+  margin: 10;
+  height: 40px;
+  background-color: wheat;
+}
+
+div, h1, a{
+  justify-content: center;
+}
